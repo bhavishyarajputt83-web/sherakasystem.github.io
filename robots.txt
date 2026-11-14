@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bhavishyarajputt83-web.github.io/sherakasystem.github.io/sitemap.xml
