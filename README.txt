@@ -17,7 +17,7 @@ Website files in this repository:
 
 GitHub repository: bhavishyarajputt83-web/sherakasystem.github.io
 Expected GitHub Pages URL:
-https://sherakasystem.com/
+https://bhavishyarajputt83-web.github.io/sherakasystem.github.io/
 
 The homepage includes links to the character profiles, FAQ answers, and the official Instagram profile:
 sherakasystem.com
@@ -30,7 +30,7 @@ SEO:
 
 After GitHub Pages is enabled in Settings > Pages, wait for the first deployment to finish.
 Google indexing is not instant or guaranteed. You can add the published website to Google Search Console and submit:
-https://sherakasystem.com/sitemap.xml
+https://bhavishyarajputt83-web.github.io/sherakasystem.github.io/sitemap.xml
 
 IMPORTANT CONTENT NOTE:
 Shera and Sheru are fictional entertainment characters. The website says Shera is Sheru's father only within the fictional SHERA_KA_SYSTEM story universe. It does not state a real-world relationship.
