@@ -6,6 +6,9 @@ Website files in this repository:
 - shera-bhai-kaun-hai.html
 - sheru-ka-father-kaun-hai.html
 - characters.html
+- brand-promotions.html
+- contact.html
+- shera-ka-system-kaun-hai.html
 - style.css
 - favicon.svg
 - robots.txt
