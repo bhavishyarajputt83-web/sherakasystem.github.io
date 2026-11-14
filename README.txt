@@ -20,7 +20,7 @@ Expected GitHub Pages URL:
 https://bhavishyarajputt83-web.github.io/sherakasystem.github.io/
 
 The homepage includes links to the character profiles, FAQ answers, and the official Instagram profile:
-https://www.instagram.com/shera_ka_system/
+sherakasystem.com
 
 SEO:
 - Each page has its own title and meta description.
