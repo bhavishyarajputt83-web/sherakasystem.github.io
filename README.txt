@@ -11,6 +11,7 @@ Website files in this repository:
 - shera-ka-system-kaun-hai.html
 - style.css
 - favicon.svg
+- shera-avatar.webp (transparent circular Shera brand avatar)
 - robots.txt
 - sitemap.xml
 
