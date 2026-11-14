@@ -1,19 +1,32 @@
-SHERA_KA_SYSTEM WEBSITE STARTER
+SHERA_KA_SYSTEM — OFFICIAL WEBSITE
+===================================
 
-Included:
-- index.html: responsive one-page website with SEO metadata and ProfilePage structured data
-- favicon.svg: simple brand emblem
+Website files in this repository:
+- index.html
+- shera-bhai-kaun-hai.html
+- sheru-ka-father-kaun-hai.html
+- characters.html
+- style.css
+- favicon.svg
+- robots.txt
+- sitemap.xml
 
-FREE HOSTING OPTION: GitHub Pages
-1. Sign in/create a free account at https://github.com/
-2. Create a PUBLIC repository named exactly: YOUR-USERNAME.github.io
-3. Upload index.html and favicon.svg to the repository root.
-4. Open repository Settings > Pages.
-5. Under Build and deployment, choose Deploy from a branch; select main and /(root), then Save.
-6. Wait for deployment. Your free website URL will be https://YOUR-USERNAME.github.io/
+GitHub repository: bhavishyarajputt83-web/sherakasystem.github.io
+Expected GitHub Pages URL:
+https://bhavishyarajputt83-web.github.io/sherakasystem.github.io/
 
-IMPORTANT:
-- Replace YOUR-GITHUB-USERNAME in the canonical and og:url tags in index.html with your real GitHub username and redeploy.
-- sherakasystem.com is not included for free. You must own/purchase the domain to connect it later. GitHub Pages supports custom domains on GitHub Free public repositories.
-- After the site is live, add its real URL to Google Search Console and submit /sitemap.xml. A sitemap file can be added once the final URL is known.
-- Replace any character descriptions if they do not match your final story canon. Add only images you own or have permission to use.
+The homepage includes links to the character profiles, FAQ answers, and the official Instagram profile:
+https://www.instagram.com/shera_ka_system/
+
+SEO:
+- Each page has its own title and meta description.
+- Canonical links point to the published Pages address.
+- sitemap.xml lists the main pages.
+- robots.txt points search crawlers to the sitemap.
+
+After GitHub Pages is enabled in Settings > Pages, wait for the first deployment to finish.
+Google indexing is not instant or guaranteed. You can add the published website to Google Search Console and submit:
+https://bhavishyarajputt83-web.github.io/sherakasystem.github.io/sitemap.xml
+
+IMPORTANT CONTENT NOTE:
+Shera and Sheru are fictional entertainment characters. The website says Shera is Sheru's father only within the fictional SHERA_KA_SYSTEM story universe. It does not state a real-world relationship.
