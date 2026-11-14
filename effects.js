@@ -5,20 +5,25 @@
     const body = document.body;
 
     // Brief, minimal logo reveal — no large image or long blocking animation.
-    if (!reduced && !sessionStorage.getItem("sks-loader-shown")) {
+    let showLoader = !reduced;
+    try {
+      if (sessionStorage.getItem("sks-loader-shown")) showLoader = false;
+      else sessionStorage.setItem("sks-loader-shown", "1");
+    } catch (_) { /* Storage may be unavailable; the short loader remains optional. */ }
+    if (showLoader) {
       const loader = document.createElement("div");
       loader.className = "site-loader";
       loader.innerHTML = '<div class="loader-inner"><div class="loader-metal">SHERA</div><div class="loader-small">KA&nbsp; / &nbsp;SYSTEM</div><div class="loader-bar"><span></span></div></div>';
       loader.setAttribute("role", "status");
       loader.setAttribute("aria-label", "Loading SHERA_KA_SYSTEM");
       body.prepend(loader);
-      sessionStorage.setItem("sks-loader-shown", "1");
       const remove = () => {
+        if (!loader.isConnected) return;
         loader.classList.add("loader-out");
-        window.setTimeout(() => loader.remove(), 550);
+        window.setTimeout(() => loader.remove(), 520);
       };
-      window.setTimeout(remove, 850);
-      window.addEventListener("load", () => window.setTimeout(remove, 180), { once: true });
+      window.setTimeout(remove, 820);
+      window.addEventListener("load", () => window.setTimeout(remove, 160), { once: true });
     }
 
     // Mobile navigation.
